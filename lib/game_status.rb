@@ -45,3 +45,9 @@ def won?(board)
               return [2,4,6]
   end
 end
+
+def full?(board)
+  if board == ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+    return true
+  else board == ["X", " ", "X", " ", "X", " ", "O", "O", " "]
+    false  
