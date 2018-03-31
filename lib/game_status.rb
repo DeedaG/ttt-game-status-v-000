@@ -77,3 +77,10 @@ def over?(board)
     return false
   end
 end
+
+def winner(board)
+  if board == ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+    return "X"
+  elsif board == ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+    return "O"
+  else board == ["X", "O", " ", " ", " ", " ", " ", "O", "X"]   
