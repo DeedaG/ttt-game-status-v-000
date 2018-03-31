@@ -51,3 +51,5 @@ def full?(board)
     return true
   else board == ["X", " ", "X", " ", "X", " ", "O", "O", " "]
     return false
+  end
+end
