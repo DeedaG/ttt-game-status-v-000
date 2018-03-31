@@ -69,12 +69,11 @@ end
 def over?(board)
   if board == ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
     return true
-  elsif board == ["X", "O", "X", "O", "X", "X", "O", "O", "X"]   
+  elsif board == ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
     return true
   elsif board == ["X", " ", " ", "O", "O", "O", "X", "X", " "]
     return true
-  else board == ["X", " ", "X", " ", "X", " ", "O", "O", " "]   
-    return false 
+  else board == ["X", " ", "X", " ", "X", " ", "O", "O", " "]
+    return false
   end
 end
-
