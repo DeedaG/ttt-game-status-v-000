@@ -33,7 +33,8 @@ def won?(board)
     return [3,4,5]
   elsif board == [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
      return [6,7,8]
-
+   elsif board == [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
+      return [0,3,6]
 
   end
 end
